@@ -2,9 +2,7 @@ from pathlib import Path
 import logging
 import pandas as pd
 
-
-RAW_DATA_PATH = Path("data/raw/Telco-Customer-Churn.csv")
-PROCESSED_DATA_PATH = Path("data/processed/telco_churn_cleaned.csv")
+from config import RAW_DATA_PATH, PROCESSED_DATA_PATH
 
 
 logging.basicConfig(
