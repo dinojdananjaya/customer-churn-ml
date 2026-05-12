@@ -17,6 +17,7 @@ The dataset used is the IBM Telco Customer Churn dataset.
 
 ## Repository Structure
 
+```text
 customer-churn-ml/
 │
 ├── data/
