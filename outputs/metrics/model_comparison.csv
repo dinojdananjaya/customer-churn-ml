@@ -1,0 +1,4 @@
+model,best_cv_roc_auc,accuracy,precision,recall,f1_score,roc_auc,best_parameters
+xgboost,0.8507668823438903,0.7945984363894811,0.6411960132890365,0.516042780748663,0.5718518518518518,0.840019982295479,"{'classifier__colsample_bytree': 0.8, 'classifier__learning_rate': 0.03, 'classifier__max_depth': 3, 'classifier__n_estimators': 200, 'classifier__subsample': 0.8}"
+logistic_regression,0.8462720772227037,0.8002842928216063,0.6396396396396397,0.56951871657754,0.6025459688826026,0.8350878237416589,"{'classifier__C': 10, 'classifier__class_weight': None}"
+random_forest,0.8481119470065674,0.7526652452025586,0.5233812949640287,0.7780748663101604,0.6258064516129033,0.8339126991111502,"{'classifier__class_weight': 'balanced', 'classifier__max_depth': 8, 'classifier__min_samples_split': 5, 'classifier__n_estimators': 300}"
