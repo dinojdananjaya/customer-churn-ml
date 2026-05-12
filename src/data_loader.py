@@ -39,10 +39,6 @@ EXPECTED_COLUMNS = {
 def load_raw_data(path: Path = RAW_DATA_PATH) -> pd.DataFrame:
     """
     Load the raw Telco Customer Churn dataset.
-
-    The dataset is loaded from the controlled raw data folder so that the
-    project remains reproducible and the data source used for modelling is
-    explicit.
     """
     if not path.exists():
         raise FileNotFoundError(
@@ -58,9 +54,6 @@ def load_raw_data(path: Path = RAW_DATA_PATH) -> pd.DataFrame:
 def validate_schema(df: pd.DataFrame) -> None:
     """
     Validate that the raw dataset contains the expected columns.
-
-    This prevents silent pipeline errors if the wrong file or an altered
-    dataset version is used.
     """
     missing_columns = EXPECTED_COLUMNS.difference(df.columns)
 
@@ -75,13 +68,6 @@ def validate_schema(df: pd.DataFrame) -> None:
 def clean_data(df: pd.DataFrame) -> pd.DataFrame:
     """
     Clean the raw dataset before exploratory analysis and modelling.
-
-    Cleaning decisions:
-    - Convert TotalCharges from object/string to numeric
-    - Remove rows where TotalCharges could not be converted
-    - Remove duplicate records
-    - Remove customerID because it is an identifier, not a predictive feature
-    - Encode Churn as a binary target variable
     """
     cleaned_df = df.copy()
 

@@ -1,0 +1,19 @@
+Contract,Churn,feature,InternetService,PaymentMethod,OnlineSecurity,TechSupport,PaperlessBilling
+Month-to-month,0.4270967741935484,Contract,,,,,
+One year,0.11277173913043478,Contract,,,,,
+Two year,0.028486646884272996,Contract,,,,,
+,0.4189276485788114,InternetService,Fiber optic,,,,
+,0.18998344370860928,InternetService,DSL,,,,
+,0.07434210526315789,InternetService,No,,,,
+,0.4528541226215645,PaymentMethod,,Electronic check,,,
+,0.19201995012468828,PaymentMethod,,Mailed check,,,
+,0.16731517509727625,PaymentMethod,,Bank transfer (automatic),,,
+,0.1525312294543064,PaymentMethod,,Credit card (automatic),,,
+,0.4177866742922505,OnlineSecurity,,,No,,
+,0.14640198511166252,OnlineSecurity,,,Yes,,
+,0.07434210526315789,OnlineSecurity,,,No internet service,,
+,0.41647465437788017,TechSupport,,,,No,
+,0.15196078431372548,TechSupport,,,,Yes,
+,0.07434210526315789,TechSupport,,,,No internet service,
+,0.33589251439539347,PaperlessBilling,,,,,Yes
+,0.16375698324022347,PaperlessBilling,,,,,No
