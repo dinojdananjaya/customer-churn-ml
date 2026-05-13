@@ -54,13 +54,15 @@ customer-churn-ml/
 
 # This project follows a structured machine learning workflow:
 
-Data loading and schema validation
-Data cleaning and preprocessing
-Exploratory data analysis
-Feature preparation using a leakage-safe preprocessing pipeline
-Model training and hyperparameter tuning
-Final model evaluation
-Model interpretation using feature importance and SHAP analysis
+Raw dataset ingestion
+Data cleaning and validation
+Exploratory Data Analysis (EDA)
+Train-test dataset splitting
+Feature preprocessing and transformation
+Machine learning model training
+Hyperparameter optimisation
+Model evaluation and comparison
+Explainable AI analysis using SHAP
 
 ## Models Used
 
